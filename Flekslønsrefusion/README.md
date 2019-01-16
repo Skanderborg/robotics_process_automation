@@ -25,12 +25,12 @@ Brobot er sat op til at sorterer mellem automatiske og manuelle behandlinger af 
 
 ### Beregning for flekslønsrefusion:
 #### Hvis der kun forekommer A-indkomst:
-flekslønsrefusion = A-indkomst.
+* flekslønsrefusion = A-indkomst.
 #### Hvis der kun forekommer A-indkomst og feriepenge:
-flekslønsrefusion = A-indkomst - feriepenge
+* flekslønsrefusion = A-indkomst - feriepenge
 #### Hvis der kun forekommer A-indkomst og pension:
-A-indkomst * pensionssats
+* A-indkomst * pensionssats
 #### Hvis der forekommer A-indkomst, feriepenge og pension:
-(A-indkomst - feriepenge) * pensionssats.
+* (A-indkomst - feriepenge) * pensionssats.
 
 Alle andre sager omkring flekslønsrefusion, kræver ikke regel-sat vurdering, og sendes derfor til manuel behandling hos sagsbehandler.
