@@ -5,23 +5,23 @@
 Brobot er sat op til at sorterer mellem automatiske og manuelle behandlinger af flekslønsrefusion på følgende regler:
 
 ### En borgers KMD-Indkomst data for indeværende måned skal:
-Indeholde én og kun én lønseddel.
-Ikke indeholde Sygedagpenge.
-Ikke indeholde barselsdagpenge.
+* Indeholde én og kun én lønseddel.
+* Ikke indeholde Sygedagpenge.
+* Ikke indeholde barselsdagpenge.
 
 ### Lønseddel
 #### Selve lønseddelen skal indeholde:
-6057 - A-indkomst
-6096 - timetal
+* 6057 - A-indkomst
+* 6096 - timetal
 
 #### Kan indeholde:
-6068 - feriepenge
-6197 - pension
-6198 - pension
+* 6068 - feriepenge
+* 6197 - pension
+* 6198 - pension
 
 ### Brobot skal have adgang til:
-Borgers SBSYS-SAGSID
-Borgers - Pensionsrate
+* Borgers SBSYS-SAGSID
+* Borgers - Pensionsrate
 
 ### Beregning for flekslønsrefusion:
 #### Hvis der kun forekommer A-indkomst:
